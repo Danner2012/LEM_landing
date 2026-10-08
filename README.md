@@ -5,7 +5,7 @@ Este es el sitio web público para los clientes, construido con Next.js 16 y Tai
 ## Requisitos
 - Node.js (v18 o superior).
 
-## 🛠️ Configuración y Arranque (Paso a Paso)
+## Configuración y Arranque (Paso a Paso)
 
 Sigue estos pasos para levantar el sitio web público en tu máquina local:
 
