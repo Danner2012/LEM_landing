@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #71134F;
+  --color-brand: #931F63;
+  --color-brand-medium: #A2246D;
+  --color-brand-light: #B3337F;
+  --color-gold-light: #F0D88A;
+  --color-gold: #D4A93F;
+  --color-gold-dark: #A87A22;
+
+  --animate-carousel: carousel 40s linear infinite;
+
+  @keyframes carousel {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
