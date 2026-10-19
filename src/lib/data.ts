@@ -1,44 +1,50 @@
 export const products = [
   {
-    path: '/product/colchon-premium',
-    title: 'Colchón Ortopédico Premium',
-    amount: '1200.00',
-    currencyCode: 'USD',
-    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2070&auto=format&fit=crop'
+    path: '/product/casata-pedic',
+    title: 'Colchón Ortopédico Casata Pedic (160 kg)',
+    amount: '3880.00',
+    currencyCode: 'BOB',
+    category: 'colchones',
+    image: '/catalogo_dorwin/01_fichas_tecnicas_colchones/002_ficha_casata_pedic_160kg_d40_extrafirme_34cm.jpeg',
   },
   {
-    path: '/product/base-cama',
-    title: 'Base Cama Dividida',
-    amount: '450.00',
-    currencyCode: 'USD',
-    image: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?q=80&w=2070&auto=format&fit=crop'
+    path: '/product/smart-viscogel',
+    title: 'Colchón Smart Viscogel Memory Foam',
+    amount: '4200.00',
+    currencyCode: 'BOB',
+    category: 'colchones',
+    image: '/catalogo_dorwin/01_fichas_tecnicas_colchones/003_ficha_smart_viscogel_120kg_pocket_suave.jpeg',
   },
   {
-    path: '/product/almohada-memory',
-    title: 'Almohada Memory Foam',
-    amount: '85.00',
-    currencyCode: 'USD',
-    image: 'https://images.unsplash.com/photo-1629949009765-40cf72dc0c13?q=80&w=2070&auto=format&fit=crop'
+    path: '/product/naturfresh',
+    title: 'Colchón Naturfresh Telas Frías Alemanas',
+    amount: '2680.00',
+    currencyCode: 'BOB',
+    category: 'colchones',
+    image: '/catalogo_dorwin/01_fichas_tecnicas_colchones/006_ficha_naturfresh_140kg_d40_telas_alemanas.jpeg',
   },
   {
-    path: '/product/colchon-semi',
-    title: 'Colchón Semi-Ortopédico',
-    amount: '850.00',
-    currencyCode: 'USD',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop'
+    path: '/product/zero-stress',
+    title: 'Colchón Ortopédico Zero Stress D35',
+    amount: '2300.00',
+    currencyCode: 'BOB',
+    category: 'colchones',
+    image: '/catalogo_dorwin/01_fichas_tecnicas_colchones/001_ficha_zero_stress_130kg_d35_firme_29cm.jpeg',
   },
   {
-    path: '/product/protector',
-    title: 'Protector Impermeable',
-    amount: '45.00',
-    currencyCode: 'USD',
-    image: 'https://images.unsplash.com/photo-1522771731475-6a3f12469601?q=80&w=2070&auto=format&fit=crop'
+    path: '/product/bamboo-confort-real',
+    title: 'Colchón Bamboo Confort Real Cazata',
+    amount: '2150.00',
+    currencyCode: 'BOB',
+    category: 'colchones',
+    image: '/catalogo_dorwin/01_fichas_tecnicas_colchones/008_ficha_bamboo_confort_real_130kg_d35_cazata.jpeg',
   },
   {
-    path: '/product/base-cajones',
-    title: 'Base Cama con Cajones',
-    amount: '550.00',
-    currencyCode: 'USD',
-    image: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=2070&auto=format&fit=crop'
-  }
-]
+    path: '/product/imperial-escalonado-v',
+    title: 'Juego Imperial Escalonado V + LED + Veladores',
+    amount: '4850.00',
+    currencyCode: 'BOB',
+    category: 'espaldares bases',
+    image: '/catalogo_dorwin/03_camas_imperiales_veladores_led/A_columnas_escalonadas_en_V_dorado_espejo/022_imperial_escalonado_V_azul_petroleo_dorado_colchon_naturfresh.jpeg',
+  },
+];
