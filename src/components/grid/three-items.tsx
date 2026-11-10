@@ -4,23 +4,25 @@ import { useRouter } from 'next/navigation';
 import { GridTileImage } from './tile';
 import { products } from '@/lib/data';
 
-function ThreeItemGridItem({ item, size }: { item: any; size: 'full' | 'half' }) {
+function ThreeItemGridItem({ item, size }: { item: (typeof products)[number]; size: 'full' | 'half' }) {
   const router = useRouter();
 
   return (
     <div
       className={size === 'full' ? 'md:col-span-4 md:row-span-2' : 'md:col-span-2 md:row-span-1'}
     >
-      <div 
-        onClick={() => router.push(item.path)} 
+      <div
+        onClick={() => router.push(item.path)}
         className="relative block h-full w-full cursor-pointer"
       >
         <GridTileImage
+          src={item.image}
+          alt={item.title}
           label={{
             position: size === 'full' ? 'center' : 'bottom',
             title: item.title,
             amount: item.amount,
-            currencyCode: item.currencyCode
+            currencyCode: item.currencyCode,
           }}
         />
       </div>

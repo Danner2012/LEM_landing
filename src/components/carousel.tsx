@@ -19,15 +19,17 @@ export function Carousel() {
             key={`${product.path}-${i}`}
             className="relative aspect-square h-[30vh] max-h-[275px] w-2/3 max-w-[475px] flex-none md:w-1/3"
           >
-            <div 
-              onClick={() => router.push(product.path)} 
+            <div
+              onClick={() => router.push(product.path)}
               className="relative h-full w-full block cursor-pointer"
             >
               <GridTileImage
+                src={product.image}
+                alt={product.title}
                 label={{
                   title: product.title,
                   amount: product.amount,
-                  currencyCode: product.currencyCode
+                  currencyCode: product.currencyCode,
                 }}
               />
             </div>

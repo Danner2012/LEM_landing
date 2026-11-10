@@ -6,3 +6,10 @@ build/
 .env.*
 !.env.example
 .DS_Store
+tsconfig.tsbuildinfo
+.idea/
+.vscode/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
